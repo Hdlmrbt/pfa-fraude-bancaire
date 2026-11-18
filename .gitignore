@@ -1,0 +1,22 @@
+# Données (trop volumineuses pour GitHub)
+data/
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Modèles lourds
+models/*.joblib
+models/*.pkl
+
+# LaTeX
+*.aux
+*.log
+*.toc
+*.out
