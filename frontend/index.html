@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#102d29">
+  <title>Sentinel — Intelligence antifraude</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <aside class="sidebar" id="sidebar"></aside>
+  <div class="workspace">
+    <header class="topbar">
+      <button class="icon-button mobile-menu" id="menu" aria-label="Ouvrir la navigation">☰</button>
+      <div class="breadcrumb">Espace de supervision <span>/</span> <strong id="crumb">Vue d’ensemble</strong></div>
+      <div class="top-actions"><span class="demo-pill">Données de démonstration</span><button class="icon-button" id="notifications" aria-label="Voir les notifications"></button><span class="top-divider"></span><div class="avatar">YA</div><div class="profile"><strong>Yassine Amrani</strong><small id="role-label">Analyste antifraude</small></div></div>
+    </header>
+    <main id="main" tabindex="-1"></main>
+    <footer>Sentinel Intelligence <span>Environnement de démonstration · PFA 2026–2027</span></footer>
+  </div>
+  <dialog id="detail"></dialog>
+  <div id="toast" class="toast" role="status"></div>
+</body>
+</html>

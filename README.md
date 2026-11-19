@@ -43,3 +43,17 @@ docs/          rapport LaTeX, slides, diagrammes
 - [ ] Backend temps réel
 - [ ] Frontend (dashboard, alertes, investigation)
 - [ ] Rapport et présentation
+
+## Front-end de démonstration
+
+Une interface interactive en français est disponible dans `frontend/` : tableau de bord,
+transactions, graphe, analyse temporelle, alertes, assistant simulé et import CSV.
+
+```powershell
+cd frontend
+npm run dev
+```
+
+Ouvrir http://127.0.0.1:5173. Aucun paquet npm à installer. Voir
+`frontend/README.md` pour les fonctionnalités et limites, et `docs/frontend-parcours.md`
+pour les parcours et les contrats API proposés à utiliser pendant la conception UML.
